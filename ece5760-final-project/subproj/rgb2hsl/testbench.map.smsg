@@ -1,0 +1,14 @@
+Warning (10268): Verilog HDL information at histogram.v(15): always construct contains both blocking and non-blocking assignments File: C:/Users/Shiva/5760WorkDir/Final/rgb2hsl/histogram.v Line: 15
+Info (10281): Verilog HDL Declaration information at rgb2hsl.v(15): object "R" differs only in case from object "r" in the same scope File: C:/Users/Shiva/5760WorkDir/Final/rgb2hsl/rgb2hsl.v Line: 15
+Info (10281): Verilog HDL Declaration information at rgb2hsl.v(16): object "G" differs only in case from object "g" in the same scope File: C:/Users/Shiva/5760WorkDir/Final/rgb2hsl/rgb2hsl.v Line: 16
+Info (10281): Verilog HDL Declaration information at rgb2hsl.v(17): object "B" differs only in case from object "b" in the same scope File: C:/Users/Shiva/5760WorkDir/Final/rgb2hsl/rgb2hsl.v Line: 17
+Info (10281): Verilog HDL Declaration information at rgb2hsl.v(25): object "maxplusmin" differs only in case from object "MAXPLUSMIN" in the same scope File: C:/Users/Shiva/5760WorkDir/Final/rgb2hsl/rgb2hsl.v Line: 25
+Info (10281): Verilog HDL Declaration information at rgb2hsl.v(83): object "R" differs only in case from object "r" in the same scope File: C:/Users/Shiva/5760WorkDir/Final/rgb2hsl/rgb2hsl.v Line: 83
+Info (10281): Verilog HDL Declaration information at rgb2hsl.v(84): object "G" differs only in case from object "g" in the same scope File: C:/Users/Shiva/5760WorkDir/Final/rgb2hsl/rgb2hsl.v Line: 84
+Info (10281): Verilog HDL Declaration information at rgb2hsl.v(85): object "B" differs only in case from object "b" in the same scope File: C:/Users/Shiva/5760WorkDir/Final/rgb2hsl/rgb2hsl.v Line: 85
+Info (10281): Verilog HDL Declaration information at rgb2hsl.v(123): object "R" differs only in case from object "r" in the same scope File: C:/Users/Shiva/5760WorkDir/Final/rgb2hsl/rgb2hsl.v Line: 123
+Info (10281): Verilog HDL Declaration information at rgb2hsl.v(124): object "G" differs only in case from object "g" in the same scope File: C:/Users/Shiva/5760WorkDir/Final/rgb2hsl/rgb2hsl.v Line: 124
+Info (10281): Verilog HDL Declaration information at rgb2hsl.v(125): object "B" differs only in case from object "b" in the same scope File: C:/Users/Shiva/5760WorkDir/Final/rgb2hsl/rgb2hsl.v Line: 125
+Info (10281): Verilog HDL Declaration information at rgb2hsl.v(129): object "MAXPLUSMIN" differs only in case from object "maxplusmin" in the same scope File: C:/Users/Shiva/5760WorkDir/Final/rgb2hsl/rgb2hsl.v Line: 129
+Info (10281): Verilog HDL Declaration information at rgb2hsl.v(136): object "max" differs only in case from object "MAX" in the same scope File: C:/Users/Shiva/5760WorkDir/Final/rgb2hsl/rgb2hsl.v Line: 136
+Info (10281): Verilog HDL Declaration information at rgb2hsl.v(136): object "min" differs only in case from object "MIN" in the same scope File: C:/Users/Shiva/5760WorkDir/Final/rgb2hsl/rgb2hsl.v Line: 136
