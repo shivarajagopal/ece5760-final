@@ -3,11 +3,11 @@ An FPGA project to take an incoming NTSC signal and output its dominant color to
 
 The method used in this project is based on Erwin Zwart's writeup, located [here](https://hue-camera.com/2015/03/17/how-hue-camera-algorithm-works/)
 
-## ece5760-final-project
+### ece5760-final-project
 This directory contains all Quartus files (based on Quartus Prime 15.1) for this project. It also contains two subprojects that were used during development. One is the converter from RGB space to HSL space, also as a Quartus project. The other is an experimental implementation to control the brightness of the RGB LED components using the onboard switches.
 
-## ece5760-report
+### ece5760-report
 This is the source code for the website found [here](https://people.ece.cornell.edu/land/courses/ece5760/FinalProjects/s2016/svr24/svr24/index.html)
 
-## MATLAB
+### MATLAB
 This contains the proof of concept for this project as a MATLAB function. The function takes in a picture and outputs its dominant color. There are two methods, one using a hard coded number of fixed colors to output, and the other using a more complex, weighted average method.
