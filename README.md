@@ -3,6 +3,8 @@ An FPGA project to take an incoming NTSC signal and output its dominant color to
 
 The method used in this project is based on Erwin Zwart's writeup, located [here](https://hue-camera.com/2015/03/17/how-hue-camera-algorithm-works/)
 
+For a full writeup of this project, including a description of the surrounding hardware, visit the website [here](https://people.ece.cornell.edu/land/courses/ece5760/FinalProjects/s2016/svr24/svr24/index.html)
+
 ### ece5760-final-project
 This directory contains all Quartus files (based on Quartus Prime 15.1) for this project. It also contains two subprojects that were used during development. One is the converter from RGB space to HSL space, also as a Quartus project. The other is an experimental implementation to control the brightness of the RGB LED components using the onboard switches.
 
