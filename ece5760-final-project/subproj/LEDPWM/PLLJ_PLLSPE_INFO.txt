@@ -1,5 +1,0 @@
-PLL_Name	LED_PLL:ledpll|altpll:altpll_component|LED_PLL_altpll:auto_generated|pll1
-PLLJITTER	55
-PLLSPEmax	84
-PLLSPEmin	-53
-
