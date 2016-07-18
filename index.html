@@ -139,15 +139,15 @@
     <p>The MATLAB simulator was created to test the methodology from Zwart's writeup. Using a set of sample images, I was able to recreate the results the Zwart was able to achieve. The simulator would first convert the image to an HSL representation, and then using fast vectorized math, quickly compute the dominant hue in the picture and output it. My first design space exploration was changing the number of hue space partitions and how closely the system could estimate the color. The sweet spot seemed to be around 16 or 32 partitions, and I determined that 16 buckets was the way to go.</p>
     <p>During this development, I learned that Zwart's algorithm uses a weighted sum of all pixels in a given hue partition. This was easy work for MATLAB, as the intermediate steps of execution, such as the pixel values in each partition, were very easy to recall. However, in hardware, this would be an entirely different animal, requiring a lot of space and state to keep track of. Modifying my script a little bit, I experimented with hard-coding colors for each partition to output if it was the most important partition. I used the average hue for the hue partition as a heuristic, and found that for either 16 or 32 partitions, the difference in weighted sum and hard-coding was negligible enough that hard-coding was feasible as a design decision. Some examples are shown below, with the original image on the left, the weighted sum-based algorithm's result in the middle, and the hard-coded algorithm's result on the right.</p>
     <div class="image"><a href="./images/matlab-test-1.PNG">
-      <img src="./images/matlab-test-1.png" alt="MATLAB Test 1" width="100%" height="100%" style="float:center; margin: 10px 10px 10px 10px;">
+      <img src="./images/matlab-test-1.PNG" alt="MATLAB Test 1" width="100%" height="100%" style="float:center; margin: 10px 10px 10px 10px;">
       </a>
     </div>
     <div class="image"><a href="./images/matlab-test-2.PNG">
-      <img src="./images/matlab-test-2.png" alt="MATLAB Test 2" width="100%" height="100%" style="float:center; margin: 10px 10px 10px 10px;">
+      <img src="./images/matlab-test-2.PNG" alt="MATLAB Test 2" width="100%" height="100%" style="float:center; margin: 10px 10px 10px 10px;">
       </a>
     </div>
     <div class="image"><a href="./images/matlab-test-3.PNG">
-      <img src="./images/matlab-test-3.png" alt="MATLAB Test 3" width="100%" height="100%" style="float:center; margin: 10px 10px 10px 10px;">
+      <img src="./images/matlab-test-3.PNG" alt="MATLAB Test 3" width="100%" height="100%" style="float:center; margin: 10px 10px 10px 10px;">
       </a>
     </div>
     <p>It's very difficult to see much of a difference in the first two color results. The third image, on the other hand, has a noticeable difference, but it is still close enough that the human eye could accept the hard-coded value as the overall dominant color of the screen. The MATLAB simulator let me make design decisions prior to exploring their hardware implementations, and eventually led me to use a simpler hardware than I was initially planning on.</p>
@@ -297,7 +297,7 @@
 	  <h3>Appendix B: External Hardware Schematics</h3>
     <p>The external circuit to drive the LED with an external power supply and PWM signal. Three of these were used, once for each component of the RGB LED</p>
     <div class="image"><a href="./images/pwm-circuit.PNG">
-      <img src="./images/pwm-circuit.png" alt="External LED circuit" width="95%" height="95%" style="float:center; margin: 10px 10px 10px 10px;">
+      <img src="./images/pwm-circuit.PNG" alt="External LED circuit" width="95%" height="95%" style="float:center; margin: 10px 10px 10px 10px;">
       </a>
     </div>
   
